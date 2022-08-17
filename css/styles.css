@@ -30,6 +30,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: end;
+  flex-wrap: wrap;
 }
 
 .nav-item {
@@ -105,7 +106,9 @@ a:hover {
   align-items: center;
   text-align: center;
 }
-
+.about-main .img {
+  max-width: 90%;
+}
 .sun {
   animation-duration: 1s;
   animation-name: color-change;

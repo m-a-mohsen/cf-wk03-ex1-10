@@ -2,156 +2,158 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
-* Browsers: last 4 version
+* Browsers: last 5 version
 */
-
 
 * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-body {
+            box-sizing: border-box;
+  }
+  
+  body {
     font-family: 'Outfit', sans-serif;
     color: #2b2b2b;
-}
-
-.flex-header {
+  }
+  
+  .flex-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.flex-nav {
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .flex-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     text-align: end;
-}
-
-.nav-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .nav-item {
     display: inline-block;
     padding: 0px 10px;
-}
-
-.flex-body {
+  }
+  
+  .flex-body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 10%;
-
-}
-
-.profile-img {
+  
+  }
+  
+  .profile-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
-
-.grid {
+  }
+  
+  .grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-}
-
-.grid__item {
+  }
+  
+  .grid__item {
     background-color: lightgray;
-}
-
-.flex-footer {
+  }
+  
+  .flex-footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-}
-
-header {
+        -ms-flex-align: center;
+            align-items: center;
+  
+  }
+  
+  header {
     font-size: 1em;
     font-weight: 100;
-}
-
-header img {
+  }
+  
+  header img {
     max-height: 50px;
-}
-
-h1 {
+  }
+  
+  h1 {
     line-height: 1.2em;
     font-size: 1.2em;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
-}
-
-a {
+  }
+  
+  a {
     color: #357b70;
     text-decoration: underline;
-}
-
-a:hover {
-
+  }
+  
+  a:hover {
+  
     text-decoration: none;
     color: #FF5733;
-}
-
-
-
-.about-main {
+  }
+  
+  
+  .about-main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: auto;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
-}
-
-.sun {
+  }
+  .about-main .img {
+    max-width: 90%;
+  }
+  .sun {
     -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+            animation-duration: 1s;
     -webkit-animation-name: color-change;
-    animation-name: color-change;
+            animation-name: color-change;
     -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+            animation-direction: alternate;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-}
-
-.button {
+            animation-timing-function: linear;
+  }
+  
+  .button {
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
@@ -167,9 +169,9 @@ a:hover {
     -webkit-transition: 0.2s opacity;
     -o-transition: 0.2s opacity;
     transition: 0.2s opacity;
-}
-
-button {
+  }
+  
+  button {
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
@@ -185,61 +187,61 @@ button {
     -webkit-transition: 0.2s opacity;
     -o-transition: 0.2s opacity;
     transition: 0.2s opacity;
-}
-
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
+  }
+  
+  button:hover,
+  button:focus,
+  .button:hover,
+  .button:focus {
     cursor: pointer;
     opacity: 0.6;
-}
-
-@media all and (max-width: 500px) {
+  }
+  
+  @media all and (max-width: 500px) {
     .grid {
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
     }
-}
-
-@media all and (min-width: 500px) and (max-width: 750px) {
+  }
+  
+  @media all and (min-width: 500px) and (max-width: 750px) {
     .grid {
-        -ms-grid-columns: 1fr 20px 1fr;
-        grid-template-columns: 1fr 1fr;
+      -ms-grid-columns: 1fr 20px 1fr;
+      grid-template-columns: 1fr 1fr;
     }
-}
-
-@media all and (max-width: 750px) {
+  }
+  
+  @media all and (max-width: 750px) {
     .grid {
-        grid-gap: 10px;
+      grid-gap: 10px;
     }
-
+  
     .grid__item:last-child {
-        grid-column: auto / auto;
-        grid-row: auto / auto;
+      grid-column: auto / auto;
+      grid-row: auto / auto;
     }
-
+  
     h1 {
-        font-size: 22px;
+      font-size: 22px;
     }
-}
-
-@-webkit-keyframes color-change {
+  }
+  
+  @-webkit-keyframes color-change {
     from {
-        fill: #e42e0e;
+      fill: #e42e0e;
     }
-
+  
     to {
-        fill: #eeaa2d;
+      fill: #eeaa2d;
     }
-}
-
-@keyframes color-change {
+  }
+  
+  @keyframes color-change {
     from {
-        fill: #e42e0e;
+      fill: #e42e0e;
     }
-
+  
     to {
-        fill: #eeaa2d;
+      fill: #eeaa2d;
     }
-}
+  }
