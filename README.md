@@ -1,4 +1,4 @@
-# cf-wk03-ex1-10
+# cf-wk03-ex1-10 :computer:
 
 ## 1- Issues with deployment (GitHub Pages)
 
