@@ -1,12 +1,10 @@
 
-# cf-wk03-ex1-10 :computer:
-
+# cf-wk03-ex1-10 :computer
 
 ## 1- Issues with deployment (GitHub Pages)
 
 - Absolute vs relative path for some pages needed to be corrected.
 - Using xml stylesheet tag inside SVG file to format SVG as an object instead og img or SVG tags (style sheet path requires exit from img folder "../" at the begining).
-
 
 ## 2- Issues with cross testing (BitBar)
 
@@ -15,11 +13,9 @@
 - Some buttons changes look based on OS (**fixed**: Changed input to button).
 - svg has overflow on mobile (**fixed**: max-width 90%).
 
-
 ## 3- IDE & linters
 
 - VsCode + W3C Web Validator.
-
 
 ## 4- Screenshot of W3C Validator
 
